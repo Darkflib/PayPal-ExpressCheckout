@@ -166,26 +166,26 @@ if(isset($_GET["token"]) && isset($_GET["PayerID"]))
 <br><br>
 <br>
 <?php
-$id				= $_GET['id'];
+$id			= $_GET['id'];
 $token 			= $httpParsedResponseAr['TOKEN'];
-$checkoutstatus	= $httpParsedResponseAr['CHECKOUTSTATUS'];
+$checkoutstatus		= $httpParsedResponseAr['CHECKOUTSTATUS'];
 $timestamp		= $httpParsedResponseAr['TIMESTAMP'];
-$correlation_id	= $httpParsedResponseAr['CORRELATIONID'];
-$acknowledgement= $httpParsedResponseAr['ACK'];
+$correlation_id		= $httpParsedResponseAr['CORRELATIONID'];
+$acknowledgement	= $httpParsedResponseAr['ACK'];
 $version		= $httpParsedResponseAr['VERSION'];
 $build			= $httpParsedResponseAr['BUILD'];
 $e_mail_id		= $httpParsedResponseAr['EMAIL'];
 $payer_id		= $httpParsedResponseAr['PAYERID'];
-$payer_status	= $httpParsedResponseAr['PAYERSTATUS'];
+$payer_status		= $httpParsedResponseAr['PAYERSTATUS'];
 $first_name		= $httpParsedResponseAr['FIRSTNAME'];
 $last_name		= $httpParsedResponseAr['LASTNAME'];
 $cust_name		= $first_name." ".$last_name;
-$country_code	= $httpParsedResponseAr['COUNTRYCODE'];
-$currency_code	= $httpParsedResponseAr['CURRENCYCODE'];
+$country_code		= $httpParsedResponseAr['COUNTRYCODE'];
+$currency_code		= $httpParsedResponseAr['CURRENCYCODE'];
 $amount			= $httpParsedResponseAr['AMT'];
 $item_amt		= $httpParsedResponseAr['ITEMAMT'];
-$shipping_amt	= $httpParsedResponseAr['SHIPPINGAMT'];
-$handling_amt	= $httpParsedResponseAr['HANDLINGAMT'];
+$shipping_amt		= $httpParsedResponseAr['SHIPPINGAMT'];
+$handling_amt		= $httpParsedResponseAr['HANDLINGAMT'];
 $tax_amt		= $httpParsedResponseAr['TAXAMT'];
 
 foreach($_SESSION['templateInfo'] as $info)
