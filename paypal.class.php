@@ -6,7 +6,7 @@
 	@version	1.2
 	
 	DO NOT EDIT ANYTHING IN THIS FILE.
-*/
+***********************************/
 
 class MyPayPal {
     	
