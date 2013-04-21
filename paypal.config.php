@@ -24,8 +24,8 @@ $PayPalApiSignature  "<<REPLACE WITH YOUR SANDBOX API SIGNATURE>>" //sandbox sig
 $PayPalMode 			= 'live'; // sandbox or live
 $PayPalApiUsername 		= 'example_api1.example.com'; 
 $PayPalApiPassword 		= 'VJ9J24YCP82VFBWG'; 
-$PayPalApiSignature 	= 'AaquWYnu8m7ONB3A.c3LbD9XfKplAxp21MUlWT264ZLFR49AF4j7oAKx'; 
-$PayPalCurrencyCode 	= 'USD'; //Paypal Currency Code
+$PayPalApiSignature 		= 'AaquWYnu8m7ONB3A.c3LbD9XfKplAxp21MUlWT264ZLFR49AF4j7oAKx'; 
+$PayPalCurrencyCode 		= 'USD'; //Paypal Currency Code
 $PayPalReturnURL 		= 'http://example.com/process.php'; //Point to process.php page
 $PayPalCancelURL 		= 'http://example.com/cancel.php'; //Cancel URL
 ?>
